@@ -7,7 +7,7 @@ The app uses 'Anchors' to fix the edges of the NSTextView to the NSView.
 activate(ScrollView.anchor.top.constant(0),ScrollView.anchor.paddingHorizontally(0))
 activate(TextView.anchor.edges)
 ```
-So when the user types, the NSView expands, thus forcing the NSTextView to expand. 
+So when the user types a new line, the NSView expands, thus forcing the NSTextView to expand. 
 The manipulation of NSTextView occurs on different layers such as NSLayoutManager, NSTextStorage etc. 
 
 # License
