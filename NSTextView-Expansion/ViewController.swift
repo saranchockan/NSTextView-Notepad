@@ -7,21 +7,27 @@
 //
 
 import Cocoa
+import Anchors
 
 class ViewController: NSViewController {
 
+    @IBOutlet var textView: TextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
-
+    
+    override func viewDidAppear() {
+        self.view.window?.styleMask.remove(NSWindow.StyleMask.resizable)
+    }
     override var representedObject: Any? {
         didSet {
-        // Update the view, if already loaded.
         }
     }
 
 
 }
+
+
 
