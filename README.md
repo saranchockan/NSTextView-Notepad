@@ -1,5 +1,5 @@
-# NSTextView-Expansion
-NSTextView-Expansion is an app which allows the NSTextView to expand as you type.
+# NSTextView Notepad
+NSTextView Notepad is an app which allows the NSTextView to expand as you type.
 
 # How does it work?
 The app uses 'Anchors' to fix the edges of the NSTextView to the NSView. 
